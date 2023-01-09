@@ -1,0 +1,63 @@
+
+form{
+  width:50vh;
+}
+
+#input{
+  width:40vw;
+  background-color:orange;
+}
+
+#card-one:hover {
+  transform: scale(120%);
+  color: blue;
+}
+#card-two:hover {
+  transform: scale(120%);
+  color: blue;
+}
+#card-three:hover {
+  transform: scale(120%);
+  color: yellow;
+}
+
+#save-btn:hover{
+  background-color: orange;
+}
+.income-transtions{
+  background-color:blue;
+  height: 5vh;
+  width:10vw;
+}
+table td:nth-child(2):hover{
+  transform: scale(150%);
+  
+}
+
+table td:first-child{
+  width:10vw;
+}
+
+table td:nth-child(1):hover{
+  background-color: yellow;
+}
+
+@media(max-width:768px){
+  
+  #input{
+      width:90vw;
+      margin: auto;
+      margin: 0;
+  }
+  .mini-container{
+      display:flex;
+      flex-direction:column;
+  }
+  #card{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: -50px;
+  }
+}
